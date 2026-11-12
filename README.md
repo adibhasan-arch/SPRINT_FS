@@ -1,5 +1,9 @@
 # React + Vite
 
+## Backend authentication
+
+Set `AUTH_USERNAME`, `AUTH_PASSWORD`, and `JWT_SECRET_KEY` in the backend process environment before using the login or token endpoints. Use a unique, strong JWT secret and do not commit credentials or secrets to the repository.
+
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
 Currently, two official plugins are available:
